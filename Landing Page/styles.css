@@ -1,0 +1,12 @@
+body{
+    background-image: url("bground.jpg");
+}
+div{
+    display: flex;
+    border:red;
+}
+.hero{
+    background-image: url("statue\ for\ quote.jpg");
+    flex: auto;
+    height:150px;
+}
