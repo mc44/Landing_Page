@@ -1,5 +1,5 @@
 body{
-    background-image: url("bground.jpg");
+    background-image: url("imgs/bground.jpg");
     margin:0;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     align-items: center;
@@ -83,10 +83,94 @@ div{
 }
 
 .actions{
-    min-height:500px;
-    background-color: rgba(35, 35, 35, 0.937);
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    max-height:600px;
+    background-color: rgba(35, 35, 35, 0.937);
+}
+.actions .quote{
+    color:rgb(188, 186, 186);
+    text-align: center;
+    padding:30px;
+    font-size: 40px;
+    margin:auto;
+    width:30%
+}
+.cardset{
+    padding:60px;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
     color:rgb(188, 186, 186);
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: rgb(188, 186, 186);
+    border-radius: 8px;
+}
+.cards img{
+    border-radius: 8px;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.desc{
+    padding: 30px 16px;
+    font-size: 20px;
+    color:black;
+    text-align: center;
+}
+
+.testimony{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;
+    min-height:500px;
+    
+}
+.bigquote{
+    padding: 20px 100px 10px 100px;
+    display: flex;
+    flex-direction: column;
+}
+.qtext{
+    color:white;
+    font-weight:lighter;
+    font-size:40px;
+    font-style: italic;
+}
+.authorname{
+    color:white;
+    font-size:20px;
+    display:flex;
+    justify-content: flex-end;
+    padding-right:60px;
+}
+
+.closing{
+    padding:30px;
+    min-height:300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:white;
+}
+
+.closingcard{
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta{
+    color:black;
+    font-weight:lighter;
+    font-size:40px;
+    font-style: italic;
 }
