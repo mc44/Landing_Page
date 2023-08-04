@@ -39,6 +39,14 @@ div{
     display:flex;
     flex-direction: column;
     align-items: center;
+    width:60%;
+}
+
+.centeritems{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:65%;
 }
 
 .quote{
@@ -52,9 +60,11 @@ div{
     font-size:48px;
 }
 .secondtxt{
-    margin: 30px 0px 5px 0px;
+    margin: 15px 0px 5px 10px;
     font-size:18px;
     font-weight: 400;
+    overflow: auto;
+    padding:0px 30px 10px 30px;
 }
 .bluedc{
     background-color: #7289da;
@@ -72,7 +82,7 @@ div{
     min-height:500px;
     background-color: rgba(215, 215, 215, 0.812);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 .heroimg{
@@ -173,4 +183,12 @@ div{
     font-weight:lighter;
     font-size:40px;
     font-style: italic;
+}
+.footer{
+    background-color: black;
+    color:white;
+    margin: auto;
+    padding:10px;
+    font-size:14px;
+    justify-content: center;
 }
